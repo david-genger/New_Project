@@ -1,0 +1,101 @@
+.first_section {
+	background: #1f2b3e url(../images/header.jpg) bottom center no-repeat;
+	padding-top: 172px;
+	height: 420px;
+}
+
+.fs_content {
+	width: 50%;
+	float: left;
+	color: #fff;
+}
+
+.first_section h1 {
+	font-size: 38px;
+	font-weight: 100; 
+}
+
+.fs_endorsed {
+	font-size: 16px;
+	margin-top: 15px;
+}
+
+.first_section form {
+	margin-top: 15px;
+}
+
+.first_section input{
+	padding: 10px 15px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.get_started {
+	padding: 5px 25px;
+	font-size: 22px;
+	border: 1px solid #ff6600;
+	background: #ff6600;
+	color: #fff;
+	margin-top: 10px;
+	transition: 400ms;
+}
+
+.get_started:hover {
+	color: #ff6600;
+	background: #fff;
+}
+
+.get_started span {
+	font-size: 14px;
+}
+
+/*second section*/
+.second_section {
+	background: #fafafa;
+}
+
+.second_section p{
+	width: 50%;
+	float: right;
+}
+
+/*therd secthion*/
+.network_image {
+	background: url("../images/sprite5.png") 0 0 no-repeat;
+	    width: 595px;
+    height: 215px;
+}
+
+.big_expl {
+	width: 75%;
+	float: left;
+}
+
+.network_icon {
+	width: 25%;
+	float: right;
+}
+
+.icon_section {
+	
+}
+
+.icon_section a {
+	text-decoration: none;
+}
+
+.icon_section .icon {
+	width: 74px;
+	height: 85px;
+	display: block;
+	float: left;
+}
+
+.icon_section.free .icon{background: url("../images/sprite5.png") 0 0 no-repeat;background-position:0 -262px;}
+.icon_section.free:hover .icon {background-position:-97px -262px;}
+.icon_section.simple .icon{background: url("../images/sprite5.png") 0 0 no-repeat;background-position:0 -381px;}
+.icon_section.simple:hover .icon {background-position: -97px -381px;}
+.icon_section.flexable .icon{background: url("../images/sprite5.png") 0 0 no-repeat;background-position:0 -499px;}
+.icon_section.flexable:hover  .icon {background-position:  -97px -499px;}
+
+/*sectiojn_four*/

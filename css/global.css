@@ -1,0 +1,118 @@
+.left {float: left;}
+.right {float: right;}
+.clearfix {content: '';display: block;clear: both;}
+.container {max-width: 980px;margin: 0 auto;}
+.background_brushmetal {background:url("../images/texture.png") repeat;}
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+	background: rgba(23,30,43,0.84);
+	box-shadow: 0 0 15px 5px #1f2b3e;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.logo {
+	height: 57px;
+	width: 246px;
+	background-image: url(../images/lendvantige_logo.png);
+	background-size: cover;
+	background-position: center;
+	margin-top: 15px;
+}
+ 
+.callus > p {
+	display: inline;
+	color: #fff;
+	font-size: 20px;
+}
+
+.callus > p:first-child {
+	color: #aaa;
+	font-weight: 100;
+}
+
+.phone_number {
+	font-weight: 600;
+}
+
+.nav {
+	width: 100%;
+}
+
+.nav ul {
+	float: left;
+}
+
+.nav ul li{
+	display: inline-block;
+	list-style: none;
+	padding: 10px 10px 10px 0;
+	margin-right: 20px;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.apply_now {
+	float: right;
+	padding: 3px 15px;
+	border-radius: 5px;
+	color: #fff;
+	background: #ff6600;
+	transition: all 400ms;
+	text-decoration: none;
+}
+
+.apply_now:hover {
+	color: #eee;
+	background: #CC5200;
+	transform: scale(1.1);
+}
+
+
+
+
+/*footer*/
+.footer {
+
+}
+
+.footer h2 {
+
+}
+
+.footer_links {
+    
+}
+
+.footer_links > li {
+    list-style-type: none;
+}
+
+.footer_links_section {
+    width: 25%;
+    float: left;
+    list-style-type: none;
+}
+
+.footer_links_section h3 {
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.footer_links_section a {
+    padding: 5px 10px 5px 0;
+    margin: 5px 10px 5px 0;
+    border: 1px solid #fff;
+    border-radius: 40px;
+}
+
+.footer_links_section a:hover {
+    border: 1px solid #aaa;
+}
